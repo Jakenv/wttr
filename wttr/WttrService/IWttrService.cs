@@ -5,7 +5,7 @@ namespace wttr.WttrService;
 
 public interface IWttrService
 {
-    Task<string?> GetWttrForCityAsync(string city);
+    Task<string?> GetWttrForCityAsync(string? city);
 }
 
 public class WttrService : IWttrService
@@ -17,7 +17,7 @@ public class WttrService : IWttrService
         _httpClientFactory = httpClientFactory;
     }
 
-    public async Task<string?> GetWttrForCityAsync(string city)
+    public async Task<string?> GetWttrForCityAsync(string? city)
     {
         var client = _httpClientFactory.CreateClient();
 
