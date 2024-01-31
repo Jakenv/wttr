@@ -1,0 +1,12 @@
+/wttr/bin/
+/wttr/obj/Debug/
+/wttr/obj/Release/
+/wttr/obj/DotnetToolSettings.xml
+/wttr/obj/project.assets.json
+/wttr/obj/project.nuget.cache
+/wttr/obj/project.packagespec.json
+/wttr/obj/rider.project.model.nuget.info
+/wttr/obj/rider.project.restore.info
+/wttr/obj/wttr.csproj.nuget.dgspec.json
+/wttr/obj/wttr.csproj.nuget.g.props
+/wttr/obj/wttr.csproj.nuget.g.targets
