@@ -12,8 +12,8 @@ public class WttrCommands
         _wttrService = wttrService;
     }
 
-    [Command("city", Description = "Get weather for city")]
-    public async Task Wttr(string? city = null)
+    [Command]
+    public async Task Wttr(string? city)
     {
         var wttr = await _wttrService.GetWttrForCityAsync(city);
         Console.WriteLine(wttr);

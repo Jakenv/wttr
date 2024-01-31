@@ -21,7 +21,7 @@ public class WttrService : IWttrService
     {
         var client = _httpClientFactory.CreateClient();
 
-        var url = $"https://wttr.in/?T{city}";
+        var url = $"https://wttr.in/{city}?T";
 
         var wttrResponse = await client.GetAsync(url);
         if (wttrResponse.StatusCode == HttpStatusCode.NotFound)
