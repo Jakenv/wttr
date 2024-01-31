@@ -10,6 +10,9 @@ This app uses the [wttr.in](https://wttr.in) service to get the weather forecast
 > wttr --help
 ```
 
+## Nuget
+[wttr](https://www.nuget.org/packages/wttr/1.0.0)
+
 ## Manual installation
 
 Copy repo and run these commands in root directory
