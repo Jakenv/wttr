@@ -1,7 +1,6 @@
 using Cocona;
-using wttr.WttrService;
 
-namespace wttr;
+namespace wttr.WttrService;
 
 public class WttrCommands
 {
